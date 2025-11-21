@@ -2,6 +2,8 @@
 
 [**HOME**](../README.md) คลิกกลับเอกสารหน้าแรก
 
+[**pvlib2**](./pvlib2.md)
+
 ### **เอกสารประกอบการเรียกใช้งานของ library pvlib**
 
 > [**NREL – Solar Position Algorithm for Solar Radiation Applications**](https://docs.nrel.gov/docs/fy08osti/34302.pdf)
