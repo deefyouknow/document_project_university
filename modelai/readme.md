@@ -7,8 +7,8 @@
     - จุดเด่น: แม่นยำมากโดยเฉพาะกับข้อมูลที่มีปริมาณน้อย และมีประสิทธิภาพสูง
     - จุดด้อย: อาจเกิด overfitting หากปรับแต่งพารามิเตอร์ไม่ดี
 
-input: 
-  Sensor:
+**input: **
+  **Sensor:**
   - LUXAGLE_1: INT
   - LUXAGLE_2: INT
   - LUXAGLE_3: INT
@@ -16,13 +16,13 @@ input:
   - SolarPower: INT
   - Data: DATETIME
 
-Output: Sensor -> add to table sql
+**Output:** Sensor -> add to table sql
 
-Processing:
+**Processing:**
   - AverageAllluxBestDegree: INT ! รับค่าเฉลี่ยของ LUXAGLE_1, LUXAGLE_2, LUXAGLE_3, LUXAGLE_4 ว่าระหว่างจุดไหนมีค่ามากสุด 
   - Activate: TINYINT ! เป็นการระบุว่าจะไปที่ตำแหน่ง AverageAllluxBestDegree หรือไม่การตัดสินใจนี้ได้มาจากการประเมินค่าความเชื่อมั่นของโมเดล
 
-Result:
+**Result:**
   {
     result: {
       PredictedValue: 159 degree,
