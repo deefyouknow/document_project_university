@@ -62,7 +62,7 @@ SolarPosition reference[{1}](https://pvlib-python.readthedocs.io/en/stable/refer
     - Lux Conversion (Luminous efficacy factor) → Lux (สำหรับเปรียบเทียบกับ BH1750)
 
 
-**บรรณานุกรม**
+**บรรณานุกรม**  
 [1]Reda & Andreas (2008), Solar Position Algorithm for Solar Radiation Applications (NREL Report)
 
 [2]Ineichen & Perez (2002), A new airmass independent formulation for the Linke turbidity coefficient
